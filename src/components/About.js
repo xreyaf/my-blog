@@ -2,11 +2,23 @@ import React from 'react'
 import aimage from '../aimage.png'
 
 const About = () => {
-    return(
+    return (
         <div className="AboutContainer">
             <img src={aimage} alt="Top wall"/>
-            <h4 className="center">About</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis inventore exercitationem maiores recusandae eligendi reprehenderit, impedit in magnam explicabo, dolor amet! Nostrum illo ex neque dolor. Voluptatem quibusdam voluptate error.</p>
+            <h1>About me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis inventore
+                exercitationem maiores recusandae eligendi reprehenderit, impedit in magnam
+                explicabo, dolor amet! Nostrum illo ex neque dolor. Voluptatem quibusdam
+                voluptate error.</p>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum autem debitis
+                quidem cupiditate, tempora dolor eum perspiciatis dignissimos nesciunt officia
+                aut voluptas voluptates voluptatem at ullam veritatis tenetur inventore minima!</p>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non exercitationem
+                molestias perspiciatis. Numquam ea sed provident. Aspernatur praesentium libero
+                perspiciatis repellendus sequi ipsum dicta cumque temporibus asperiores,
+                assumenda aliquam ad.</p>
         </div>
     )
 }

@@ -2,31 +2,39 @@
   box-sizing: border-box;
 
 }
+
 .ArticleContainer {
-  margin: 30px 0px 0px 600px;
-  padding: 0px 10px;
+  position: relative;
+  margin: 10px 10px 0 30px;
   width: auto;
 }
 
 article {
-  padding: 10px 10px 20px 10px;
-  border-bottom: 1px solid #ddd;
-  margin: 0px 0px 0px;
+  padding: 10px 10px 5px;
   width: 100%;
 }
+
 article h2 {
+  color: #333333;
   font-size: 40px;
-  margin: 5px 0px 10px 0px;
+  margin: 5px 0 10px;
 }
+
 article p1 {
-  color:  #a1a9a7 ;
+  color: #a1a9a7;
+  font-size: 16px;
 }
+
+article p {
+  font-size: 22px;
+}
+
 article button {
   background-color: transparent;
   color: black;
   height: 35px;
   width: 200px;
-  margin: 0 5px 0px 0px;
+  margin: 0 5px 0 0;
   border-radius: 15px;
   border: 1px solid #a1a9a7;
   padding: 5px;
@@ -34,9 +42,9 @@ article button {
 }
 
 .sidebar {
-  text-size: 28;
+  position: relative;
   height: 100%;
-  max-width: 530px;
+  max-width: 30%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -45,37 +53,92 @@ article button {
   overflow-x: hidden;
 }
 
-.sidebar h1{
+.sidebar h1 {
   color: #f0f0f0;
+  font-size: 48px;
 }
-.sidebar p{
+
+.sidebar p {
   color: #9b9b9b;
+  font-size: 22px;
 }
-.s_content{
-margin: 30px 50px 10px 50px;
+
+.s_content {
+  margin: 30px 50px 10px;
 }
-.item{
-  color: white;
+
+.SocialLinks {
+  color: grey !important;
+  margin: 15px 8px 0 0;
+}
+
+.SocialLinks:hover {
+  color: #f0f0f0 !important;
+}
+
+.item {
+  margin: 10px 0;
   width: 100%;
+  font-size: 22px;
+}
+
+.item a {
+
+  width: 100%;
+  font-size: 22px;
+  color: #a1a9a7 !important;
+}
+
+.item a:hover {
+  color: #f0f0f0 !important;
 }
 
 .AboutContainer {
- margin-left: 530px;
+  margin: 10px 10px 0 30px;
+}
+
+.AboutContainer h1 {
+  color: #333333;
+  font-size: 48px;
+}
+
+.AboutContainer h2 {
+  color: #333333;
+  font-size: 40px;
+}
+
+.AboutContainer p {
+  font-size: 22px;
+}
+
+.ui.basic.button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 50px;
+  width: 200px;
+  margin: 20px 10px !important;
 }
 
 .PostContainer {
-  margin-left: 530px;
+  margin: 10px 10px 0 30px;
 }
 
-.ReturnButton {
+.post h4 {
+  color: #333333;
   text-align: center;
-  background-color: transparent;
-  color: black;
-  height: 50px;
-  width: 200px;
-  margin: 10px 10px 10px 10px;
-  border-radius: 3px;
-  border: 1px solid #a1a9a7;
-  padding: 5px;
-  cursor: pointer;
+  font-size: 48px;
+  margin: 20px 10px;
+}
+
+.post p1 {
+  color: #969696;
+  position: relative;
+  text-align: center;
+  margin: 20px 10px;
+  font-size: 16px;
+}
+
+.post p2 {
+  font-size: 22px;
 }
