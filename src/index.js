@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+//import { Home } from './pages/Home';
+//mport { Post } from './pages/Post';
+//import { About } from './pages/About';W
 
 ReactDOM.render(
   <React.StrictMode>
