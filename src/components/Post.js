@@ -21,7 +21,9 @@ class Post extends Component {
             ? (
                 <div className="post">
                     <h4>{this.state.post.title}</h4>
-                    <div class="ui center aligned container"><p1>MARCH 2, 2016 | TRAVEL</p1></div>
+                    <div class="ui center aligned container">
+                        <p1>MARCH 2, 2016 | TRAVEL</p1>
+                    </div>
                     <div class="ui divider"></div>
                     <p2>{this.state.post.body}</p2>
 
@@ -29,17 +31,18 @@ class Post extends Component {
             )
             : (
                 <div className="PostContainer">
-                <div class="ui segment">
-                            <div class="ui active transition visible inverted dimmer">
-                                <div class="content">
-                                    <div class="ui small text loader">Loading post</div>
-                                </div>
+                    <div class="ui segment">
+                        <div class="ui active transition visible inverted dimmer">
+                            <div class="content">
+                                <div class="ui large text loader">Loading</div>
                             </div>
-                            <img
-                                src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png"
-                                class="ui image"/>
                         </div>
-                        </div>
+                        <img
+                            src="https://react.semantic-ui.com/images/wireframe/paragraph.png"
+                            alt="Loader"
+                            class="ui image"/>
+                    </div>
+                </div>
             )
 
         return (

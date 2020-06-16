@@ -4,15 +4,18 @@ import {Link} from 'react-router-dom'
 
 class Home extends Component {
     state = {
-        posts: []
+        posts: [],
+        lenght: 8
     }
 
     componentDidMount() {
-        axios.get('https://jsonplaceholder.typicode.com/posts')
+        axios
+            .get('https://jsonplaceholder.typicode.com/posts')
             .then(res => {
-                this.setState({
-                    posts: res.data.slice(0, 7)
-                })
+                let newData = res
+                    .data
+                    .slice(0, this.state.lenght);
+                this.setState({posts: newData})
             })
             .catch(err => console.log("Couldn't fetch data. Error: " + err))
     }
@@ -22,19 +25,10 @@ class Home extends Component {
         return (
             <div className='ArticleContainer'>
                 {posts.length === 0
-                    ? <div class="ui segment">
-                            <div class="ui active transition visible inverted dimmer">
-                                <div class="content">
-                                    <div class="ui small text loader">Loading posts</div>
-                                </div>
-                            </div>
-                            <img
-                                src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png"
-                                class="ui image"/>
-                        </div>
+                    ? <div class="ui active centered inline loader"></div>
                     : posts.map((post) => (
                         <article key={post.id}>
-                            <h2>{post.title}</h2>
+                            <h1>{post.title}</h1>
                             <p1>MARCH 2, 2016 | TRAVEL</p1>
                             <p>{post.body}</p>
                             <Link to={'/post/' + post.id}>
@@ -45,7 +39,7 @@ class Home extends Component {
 
                     ))
 }
-                <button class="ui basic button big">More posts</button>
+                <button class="ui basic button big" onClick={this.fetchMorePosts}>More posts</button>
             </div>
         )
     }

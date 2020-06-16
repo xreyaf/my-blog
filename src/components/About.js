@@ -4,7 +4,7 @@ import aimage from '../aimage.png'
 const About = () => {
     return (
         <div className="AboutContainer">
-            <img src={aimage} alt="Top wall"/>
+            <img src={aimage} alt="Top wall" class="ui massive image"/>
             <h1>About me</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis inventore
                 exercitationem maiores recusandae eligendi reprehenderit, impedit in magnam

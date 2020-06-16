@@ -17,29 +17,45 @@ class Sidebar extends React.Component {
                         <div role="listitem" class="item">
                             <NavLink to="/home">HOME</NavLink>
                         </div>
-                        <a role="listitem" class="item">
+                        <div role="listitem" class="item">
                             <NavLink to="/about">ABOUT</NavLink>
-                        </a>
+                        </div>
                     </div>
                     <div class="ui divider"></div>
                     <div>
-                        <a className="SocialLinks" href="https://vk.com/boooo0_0oooom" target="_blank" rel="noopener noreferrer" >
+                        <a
+                            className="SocialLinks"
+                            href="https://vk.com/boooo0_0oooom"
+                            target="_blank"
+                            rel="noopener noreferrer">
                             <i aria-hidden="true" class="vk big icon"></i>
                         </a>
 
-                        <a className="SocialLinks" href="https://www.instagram.com/xreyaf" target="_blank" rel="noopener noreferrer" >
+                        <a
+                            className="SocialLinks"
+                            href="https://www.instagram.com/xreyaf"
+                            target="_blank"
+                            rel="noopener noreferrer">
                             <i aria-hidden="true" class="instagram big icon"></i>
                         </a>
 
-                        <a className="SocialLinks" href="https://github.com/xreyaf" target="_blank" rel="noopener noreferrer" >
+                        <a
+                            className="SocialLinks"
+                            href="https://github.com/xreyaf"
+                            target="_blank"
+                            rel="noopener noreferrer">
                             <i aria-hidden="true" class="github big icon"></i>
                         </a>
 
-                        <a className="SocialLinks" href="https://twitter.com/xreyaf" target="_blank" rel="noopener noreferrer" >
+                        <a
+                            className="SocialLinks"
+                            href="https://twitter.com/xreyaf"
+                            target="_blank"
+                            rel="noopener noreferrer">
                             <i aria-hidden="true" class="twitter big icon"></i>
                         </a>
-
                     </div>
+
                 </div>
             </div>
         )

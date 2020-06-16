@@ -14,9 +14,9 @@ article {
   width: 100%;
 }
 
-article h2 {
+article h1 {
   color: #333333;
-  font-size: 40px;
+  font-size: 48px;
   margin: 5px 0 10px;
 }
 
@@ -60,6 +60,7 @@ article button {
 
 .sidebar p {
   color: #9b9b9b;
+  margin: 10px 0 5px !important;
   font-size: 22px;
 }
 
@@ -94,12 +95,13 @@ article button {
 }
 
 .AboutContainer {
-  margin: 10px 10px 0 30px;
+  margin: 0 10px 0 30px;
 }
 
 .AboutContainer h1 {
   color: #333333;
   font-size: 48px;
+  margin: 0 0 5px;
 }
 
 .AboutContainer h2 {
@@ -109,6 +111,10 @@ article button {
 
 .AboutContainer p {
   font-size: 22px;
+}
+
+.ui.massive.image {
+  width: auto !important;
 }
 
 .ui.basic.button {
@@ -121,14 +127,14 @@ article button {
 }
 
 .PostContainer {
-  margin: 10px 10px 0 30px;
+  margin: 0 10px 0 20px;
 }
 
 .post h4 {
   color: #333333;
   text-align: center;
   font-size: 48px;
-  margin: 20px 10px;
+
 }
 
 .post p1 {
