@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
 
 .ArticleContainer {
@@ -44,7 +43,7 @@ article button {
 .sidebar {
   position: relative;
   height: 100%;
-  max-width: 30%;
+  max-width: 25%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -70,11 +69,18 @@ article button {
 
 .SocialLinks {
   color: grey !important;
-  margin: 15px 8px 0 0;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .SocialLinks:hover {
   color: #f0f0f0 !important;
+}
+
+.big.icon {
+  margin: 8px;
 }
 
 .item {
@@ -84,7 +90,6 @@ article button {
 }
 
 .item a {
-
   width: 100%;
   font-size: 22px;
   color: #a1a9a7 !important;
@@ -117,6 +122,15 @@ article button {
   width: auto !important;
 }
 
+.ui.post.button {
+  background-color: transparent !important;
+  font-weight: 500;
+  border-radius: 5px;
+  text-transform: none;
+  text-shadow: none !important;
+  box-shadow: 0 0 0 1px rgba(34, 36, 38, .15);
+}
+
 .ui.basic.button {
   position: relative;
   left: 50%;
@@ -134,7 +148,6 @@ article button {
   color: #333333;
   text-align: center;
   font-size: 48px;
-
 }
 
 .post p1 {

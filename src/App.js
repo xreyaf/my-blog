@@ -14,7 +14,7 @@ class App extends Component {
                 <Sidebar/>
                 <div className='Main'>
                     <Switch>
-                        <Redirect exact from="/" to="Home"/>
+                        <Redirect exact from="/" to="home"/>
                         <Route path='/home' component={Home}/>
                         <Route path='/about' component={About}/>
                         <Route path='/post/:post_id' component={Post}/>
