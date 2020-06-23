@@ -22,10 +22,10 @@ class Sidebar extends React.Component {
                         </div>
                     </div>
                     <div class="ui divider"></div>
-                    <div>
+                    <div className="socialIcons">
                         <a
                             className="SocialLinks"
-                            href="https://vk.com/boooo0_0oooom"
+                            href="https://vk.com/asad7777"
                             target="_blank"
                             rel="noopener noreferrer">
                             <i aria-hidden="true" class="vk big icon"></i>
@@ -33,7 +33,7 @@ class Sidebar extends React.Component {
 
                         <a
                             className="SocialLinks"
-                            href="https://www.instagram.com/xreyaf"
+                            href="https://www.instagram.com/a_isaeff"
                             target="_blank"
                             rel="noopener noreferrer">
                             <i aria-hidden="true" class="instagram big icon"></i>
@@ -41,7 +41,7 @@ class Sidebar extends React.Component {
 
                         <a
                             className="SocialLinks"
-                            href="https://github.com/xreyaf"
+                            href="https://github.com/TheKekMan"
                             target="_blank"
                             rel="noopener noreferrer">
                             <i aria-hidden="true" class="github big icon"></i>
@@ -49,10 +49,10 @@ class Sidebar extends React.Component {
 
                         <a
                             className="SocialLinks"
-                            href="https://twitter.com/xreyaf"
+                            href="https://telegram.org/a_isaefff"
                             target="_blank"
                             rel="noopener noreferrer">
-                            <i aria-hidden="true" class="twitter big icon"></i>
+                            <i aria-hidden="true" class="telegram big icon"></i>
                         </a>
                     </div>
 

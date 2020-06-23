@@ -1,10 +1,9 @@
 import React from 'react'
-import aimage from '../aimage.png'
-
+import beach from '../images/beach.PNG'
 const About = () => {
     return (
         <div className="AboutContainer">
-            <img src={aimage} alt="Top wall" class="ui massive image"/>
+            <img src={beach} alt="Top wall" class="ui massive image"/>
             <h1>About me</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis inventore
                 exercitationem maiores recusandae eligendi reprehenderit, impedit in magnam

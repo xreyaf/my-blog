@@ -22,7 +22,9 @@ class Post extends Component {
                 <div className="post">
                     <h4>{this.state.post.title}</h4>
                     <div class="ui center aligned container">
-                        <p1>MARCH 2, 2016 | TRAVEL</p1>
+                    <p1>MARCH 2, 2016 </p1>  
+                    <p1 className="TagDivider"> | </p1>
+                    <p1>TRAVEL</p1>
                     </div>
                     <div class="ui divider"></div>
                     <p2>{this.state.post.body}</p2>

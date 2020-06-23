@@ -8,6 +8,9 @@
   margin: 10px 10px 0 30px;
   width: auto;
 }
+.TagDivider{
+  margin: 0 10px 0 10px;
+}
 
 article {
   padding: 10px 10px 5px;
@@ -16,35 +19,41 @@ article {
 
 article h1 {
   color: #333333;
-  font-size: 48px;
+  font-size: 36px;
   margin: 5px 0 10px;
 }
 
 article p1 {
-  color: #a1a9a7;
-  font-size: 16px;
+  font-size: 14px;
+  color: #969696;
 }
 
 article p {
-  font-size: 22px;
+  margin-top: 15px;
+  font-size: 14px;
 }
 
 article button {
   background-color: transparent;
+  font-size: 14px;
   color: black;
   height: 35px;
-  width: 200px;
+  width: 230px;
   margin: 0 5px 0 0;
-  border-radius: 15px;
+  border-radius: 20px;
   border: 1px solid #a1a9a7;
   padding: 5px;
   cursor: pointer;
 }
 
+article .ui.divider{
+  margin-top: 40px;
+}
+
 .sidebar {
   position: relative;
   height: 100%;
-  max-width: 30%;
+  width: 400px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -55,13 +64,13 @@ article button {
 
 .sidebar h1 {
   color: #f0f0f0;
-  font-size: 48px;
+  font-size: 36x;
 }
 
 .sidebar p {
   color: #9b9b9b;
   margin: 10px 0 5px !important;
-  font-size: 22px;
+  font-size: 14px;
 }
 
 .s_content {
@@ -71,6 +80,18 @@ article button {
 .SocialLinks {
   color: grey !important;
   margin: 15px 8px 0 0;
+}
+
+.sidebar .i.big.icon{
+  font-size: 25px;
+}
+
+.sidebar .ui.link.list{
+  margin: 30px 0px 30px 0px;
+}
+
+.sidebar .socialIcons{
+  margin-top: 30px;
 }
 
 .SocialLinks:hover {
@@ -86,7 +107,7 @@ article button {
 .item a {
 
   width: 100%;
-  font-size: 22px;
+  font-size: 16px;
   color: #a1a9a7 !important;
 }
 
@@ -100,26 +121,32 @@ article button {
 
 .AboutContainer h1 {
   color: #333333;
-  font-size: 48px;
+  font-size: 36px;
   margin: 0 0 5px;
 }
 
 .AboutContainer h2 {
   color: #333333;
-  font-size: 40px;
+  font-size: 24px;
 }
 
 .AboutContainer p {
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .ui.massive.image {
   width: auto !important;
+  margin: 0 0 0 0;
+}
+.ui.divider{
+  margin-right: 100px;
+  border: 1px solid #5E5E5E;
 }
 
 .ui.basic.button {
   position: relative;
   left: 50%;
+  font-size: 14px;
   transform: translate(-50%, 0);
   height: 50px;
   width: 200px;
@@ -133,7 +160,7 @@ article button {
 .post h4 {
   color: #333333;
   text-align: center;
-  font-size: 48px;
+  font-size: 36px;
 
 }
 
@@ -146,5 +173,5 @@ article button {
 }
 
 .post p2 {
-  font-size: 22px;
+  font-size: 16px;
 }
