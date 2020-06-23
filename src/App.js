@@ -1,13 +1,12 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import './App.css';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
-import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
 import Home from './components/Home'
 import About from './components/About'
 import Post from './components/Post'
 
 class App extends Component {
-
     render() {
         return (
             <BrowserRouter>
@@ -23,7 +22,6 @@ class App extends Component {
             </BrowserRouter>
         )
     }
-
 }
 
 export default App;
