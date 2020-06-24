@@ -26,10 +26,10 @@ class Post extends Component {
         <div className="post">
           <h4>{this.state.post.title}</h4>
           <div className="ui center aligned container">
-            <p1>MARCH 2, 2016 | TRAVEL</p1>
+            <p className="dateP">MARCH 2, 2016 | TRAVEL</p>
           </div>
           <div className="ui divider" />
-          <p2>{this.state.post.body}</p2>
+          <p className="bdy">{this.state.post.body}</p>
 
         </div>
       )

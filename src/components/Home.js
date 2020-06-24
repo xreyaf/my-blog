@@ -25,7 +25,7 @@ class Home extends Component {
   }
 
   onLoadMore() {
-    this.setState({ lenght: this.state.lenght + 7 });
+    this.setState({ lenght: this.state.lenght + 9 });
     this.componentDidMount();
   }
 
@@ -39,7 +39,7 @@ class Home extends Component {
           : posts.map((post) => (
             <article key={post.id}>
               <h1>{post.title}</h1>
-              <p1>MARCH 2, 2016 | TRAVEL</p1>
+              <p className="dateA">MARCH 2, 2016 | TRAVEL</p>
               <p>{post.body}</p>
               <Link to={`/post/${post.id}`}>
                 <button type="button" className="ui post button">Continue reading</button>

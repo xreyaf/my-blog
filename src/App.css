@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/*--- Home.js ---*/
 .ArticleContainer {
   position: relative;
   margin: 10px 10px 0 30px;
@@ -19,9 +20,11 @@ article h1 {
   margin: 5px 0 10px;
 }
 
-article p1 {
-  color: #a1a9a7;
-  font-size: 16px;
+.dateA {
+  color: #969696;
+  position: relative;
+  margin: 8px 0px;
+  font-size: 18px;
 }
 
 article p {
@@ -40,6 +43,7 @@ article button {
   cursor: pointer;
 }
 
+/*--- Sidebar.js ---*/
 .sidebar {
   position: relative;
   height: 100%;
@@ -99,6 +103,7 @@ article button {
   color: #f0f0f0 !important;
 }
 
+/*--- About.js ---*/
 .AboutContainer {
   margin: 0 10px 0 30px;
 }
@@ -140,6 +145,7 @@ article button {
   margin: 20px 10px !important;
 }
 
+/*--- Post.js ---*/
 .PostContainer {
   margin: 0 10px 0 20px;
 }
@@ -150,7 +156,7 @@ article button {
   font-size: 48px;
 }
 
-.post p1 {
+.dateP {
   color: #969696;
   position: relative;
   text-align: center;
@@ -158,6 +164,6 @@ article button {
   font-size: 16px;
 }
 
-.post p2 {
+.bdy {
   font-size: 22px;
 }
